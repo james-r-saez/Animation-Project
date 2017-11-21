@@ -1,0 +1,26 @@
+body {
+	margin: 0;
+	overflow: hidden; /*stops the animation from making the screen scroll*/
+}
+img {
+	max-width: 100%; /*keeps img from losing its proportions*/
+	max-height: 100%;
+}
+#container {
+	width: 100vw; /*keeps the background the size of the screen*/
+	height: 100vh;
+	position: relative;
+	background-image: url("forest.jpg");
+}
+#animate {
+	width: 400px; /*img will be constrained to these dimensions*/
+	height: 400px;
+	top: 620px;
+	position: absolute;
+}
+#animate2 {
+	width: 220px; /*img will be constrained to these dimensions*/
+	height: 220px;
+	top: 680px;
+	position: absolute;
+}
